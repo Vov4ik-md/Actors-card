@@ -1,0 +1,60 @@
+table, tr, th, td {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+td {
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+h1, h2 {
+	text-align: center;
+	border-radius: 10px;
+}
+
+body {
+	background-color: aquamarine;
+}
+
+button {
+	background-color: #48df1595;
+	border-radius: 6px;
+	border: 2px solid rgb(20, 23, 188);
+}
+button a{
+	color: rgb(224, 156, 59);
+}
+
+h1 {
+	background-color: darkorange;
+}
+
+h2 {
+	background-color: coral;
+}
+
+table th {
+	background-color: chartreuse;
+}
+
+th a {
+	color: black;
+	text-decoration: none;
+}
+
+td img {
+	border-radius: 8px;
+}
+
+.images {
+	background-color: rgb(210, 210, 30);
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+}
