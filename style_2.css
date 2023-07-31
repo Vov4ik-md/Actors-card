@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap');
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1100px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.card {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	flex-basis: 280px;
+}
+
+.card div {
+	border: 1px solid black;
+}
+
+.inner-container-card {
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+}
+
+.inner-container-card > img {
+	width: 250px;
+	height: 250px;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	margin-top: -75px	;
+}
+
+.film-info {
+	display: flex;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+}
+
+.film-logo img {
+	width: 90px;
+}
+
+.film-description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 2;
+	justify-content: flex-end;
+}
+
+.imdb {
+	align-self: flex-end;
+	margin-top: 20px;
+}
+
+.imdb > img {
+	width: 55px;
+	height: 25px;
+}
+
+.star-rating {
+	color: #e5af0e;
+	font-size: 20px;
+}
+.awards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.award-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.awards p {
+	margin: 0;
+}
+
+.award-avatar img {
+	height: 75px;
+}
