@@ -2,6 +2,10 @@
 body {
 	font-family: "Montserrat", sans-serif;
 }
+h1 {
+	text-align: center;
+	margin: 60px auto 150px;
+}
 
 .card-container {
 	display: flex;
@@ -35,6 +39,20 @@ body {
 	margin-top: -75px	;
 }
 
+.name {
+	display: flex;
+	flex-direction: column;
+}
+
+h2 {
+	margin: 0 auto 15px;
+}
+
+.tag-name {
+	display: flex;
+	justify-content: end;
+}
+
 .film-info {
 	display: flex;
 	border-top: 2px solid green;
@@ -53,6 +71,10 @@ body {
 	justify-content: flex-end;
 }
 
+.film-text-description {
+	font-size: 70%;
+}
+
 .imdb {
 	align-self: flex-end;
 	margin-top: 20px;
@@ -67,6 +89,11 @@ body {
 	color: #e5af0e;
 	font-size: 20px;
 }
+
+.title {
+	font-weight: bold;
+}
+
 .awards {
 	display: flex;
 	justify-content: space-between;
@@ -81,6 +108,14 @@ body {
 
 .awards p {
 	margin: 0;
+}
+
+.award-info p:first-of-type {
+	color: #e5af0e;
+}
+
+.award-info p:last-of-type {
+	color: blue;
 }
 
 .award-avatar img {
