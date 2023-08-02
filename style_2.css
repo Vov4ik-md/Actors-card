@@ -12,7 +12,7 @@ h1 {
 	flex-wrap: wrap;
 	max-width: 1100px;
 	justify-content: space-between;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 .card {
@@ -20,13 +20,7 @@ h1 {
 	flex-basis: 280px;
 }
 
-.card div {
-	border: 1px solid black;
-}
-
 .inner-container-card {
-	display: flex;
-	flex-direction: column;
 	padding: 25px;
 }
 
@@ -37,6 +31,11 @@ h1 {
 	border-radius: 50%;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 	margin-top: -75px	;
+}
+
+.inner-container-card > img:hover {
+	transform: translate3d(0, -10px, 0);
+	transition: transform 0.5s;
 }
 
 .name {
