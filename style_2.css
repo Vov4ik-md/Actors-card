@@ -1,41 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400;1,600&display=swap');
 body {
 	font-family: "Montserrat", sans-serif;
+	background-color: beige;
 }
+
 h1 {
 	text-align: center;
 	margin: 60px auto 150px;
 }
 
+h2 {
+	margin: 0 auto 15px 0;
+}
+
 .card-container {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 1100px;
+	max-width: 1200px;
 	justify-content: space-between;
 	margin: 20px auto;
 }
 
-.card {
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-	flex-basis: 280px;
-}
-
 .inner-container-card {
-	padding: 25px;
-}
-
-.inner-container-card > img {
-	width: 250px;
-	height: 250px;
-	border: 5px solid white;
-	border-radius: 50%;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-	margin-top: -75px	;
-}
-
-.inner-container-card > img:hover {
-	transform: translate3d(0, -10px, 0);
-	transition: transform 0.5s;
+	flex-basis: 310px;
+	margin-bottom: 45px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: ivory;
+	border-radius: 15px;
 }
 
 .name {
@@ -43,23 +38,36 @@ h1 {
 	flex-direction: column;
 }
 
-h2 {
-	margin: 0 auto 15px;
+.name > img {
+	width: 250px;
+	height: 250px;
+	border: 5px solid white;
+	border-radius: 50%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	margin-top: -75px;
+	align-self: center;
+}
+
+.name > img:hover {
+	transform: translate3d(0, -10px, 0);
+	transition: transform 0.5s;
 }
 
 .tag-name {
 	display: flex;
 	justify-content: end;
+	color: rgb(133, 133, 8);
 }
 
 .film-info {
 	display: flex;
+	align-items: center;
 	border-top: 2px solid green;
 	border-bottom: 2px solid green;
 }
 
 .film-logo img {
-	width: 90px;
+	width: 80px;
 }
 
 .film-description {
@@ -96,6 +104,7 @@ h2 {
 .awards {
 	display: flex;
 	justify-content: space-between;
+	margin-top: auto;
 }
 
 .award-info {
